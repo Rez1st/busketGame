@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using GuessGame.Models;
 using GuessGame.Models.Models;
 using GuessGame.Service;
@@ -57,10 +58,7 @@ namespace GuessGame.Cleint
 
         private static void ReguestPlayer()
         {
-            Console.WriteLine();
-            Console.WriteLine("Hello challanger - how shold we call you?");
-
-            var name = Console.ReadLine();
+            var name = GetName();
 
             Console.WriteLine();
             Console.WriteLine("Pick challenger type");
@@ -73,6 +71,22 @@ namespace GuessGame.Cleint
             Console.WriteLine();
 
             GetPlayerType(name);
+        }
+
+        private static string GetName()
+        {
+            Console.WriteLine();
+            Console.WriteLine("Hello challanger - how shold we call you?");
+
+            var name = Console.ReadLine();
+
+            if (Players.Any(x => x.Name == name))
+            {
+                Console.WriteLine("Player with such name already exists, please pick anpther one");
+                GetName();
+            }
+
+            return name;
         }
 
         private static void GetPlayerType(string name)
