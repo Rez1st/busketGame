@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessGame.Cleint", "GuessGame.Cleint\GuessGame.Cleint.csproj", "{A9FB781B-E335-4A0D-8E1B-4B453132A5DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessGame.Service", "GuessGame.Service\GuessGame.Service.csproj", "{5CD71EBD-9A51-41E5-924B-9E8AF540AC70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessGame.Models", "GuessGame.Models\GuessGame.Models.csproj", "{476EF861-F5A1-4DC6-BFE0-3DF7BECDC877}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9FB781B-E335-4A0D-8E1B-4B453132A5DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9FB781B-E335-4A0D-8E1B-4B453132A5DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9FB781B-E335-4A0D-8E1B-4B453132A5DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9FB781B-E335-4A0D-8E1B-4B453132A5DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CD71EBD-9A51-41E5-924B-9E8AF540AC70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CD71EBD-9A51-41E5-924B-9E8AF540AC70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CD71EBD-9A51-41E5-924B-9E8AF540AC70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CD71EBD-9A51-41E5-924B-9E8AF540AC70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{476EF861-F5A1-4DC6-BFE0-3DF7BECDC877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{476EF861-F5A1-4DC6-BFE0-3DF7BECDC877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{476EF861-F5A1-4DC6-BFE0-3DF7BECDC877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{476EF861-F5A1-4DC6-BFE0-3DF7BECDC877}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
